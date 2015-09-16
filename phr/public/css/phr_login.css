@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'pluto_sans_regularregular';
+    src: url('../fonts/PlutoSansRegular-webfont.eot');
+    src: url('../fonts/PlutoSansRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PlutoSansRegular-webfont.woff2') format('woff2'),
+         url('../fonts/PlutoSansRegular-webfont.woff') format('woff'),
+         url('../fonts/PlutoSansRegular-webfont.ttf') format('truetype'),
+         url('../fonts/PlutoSansRegular-webfont.svg#pluto_sans_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto_sansbold';
+    src: url('../fonts/PlutoSansBold-webfont.eot');
+    src: url('../fonts/PlutoSansBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PlutoSansBold-webfont.woff2') format('woff2'),
+         url('../fonts/PlutoSansBold-webfont.woff') format('woff'),
+         url('../fonts/PlutoSansBold-webfont.ttf') format('truetype'),
+         url('../fonts/PlutoSansBold-webfont.svg#pluto_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto_sansmedium';
+    src: url('../fonts/PlutoSansMedium-webfont.eot');
+    src: url('../fonts/PlutoSansMedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PlutoSansMedium-webfont.woff2') format('woff2'),
+         url('../fonts/PlutoSansMedium-webfont.woff') format('woff'),
+         url('../fonts/PlutoSansMedium-webfont.ttf') format('truetype'),
+         url('../fonts/PlutoSansMedium-webfont.svg#pluto_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto_sanslight';
+    src: url('../fonts/PlutoSansLight-webfont.eot');
+    src: url('../fonts/PlutoSansLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PlutoSansLight-webfont.woff2') format('woff2'),
+         url('../fonts/PlutoSansLight-webfont.woff') format('woff'),
+         url('../fonts/PlutoSansLight-webfont.ttf') format('truetype'),
+         url('../fonts/PlutoSansLight-webfont.svg#pluto_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*body { padding-top: 65px !important; }*/
+.green, .active, .contact-left a:hover, .login-wrapper h5 { color: #87c33f; }
+.navbar-default .navbar-nav > .last > a { color: #0a79bc; }
+header { position: fixed; top: 0; left: 0; width: 100%; background: #fff; z-index: 9999; }
+.login-container { position: relative; }
+.login-wrapper { position: absolute; top: 20px; right: 0; z-index: 999; width: 320px; background: #fff; padding: 25px; border-radius: 10px; }
+.login-wrapper .nav > li > a { padding: 10px; }
+.carousel-caption .expore-link {
+	color: #0a79bc;
+	font-family: 'pluto_sansmedium';
+	font-size: 13px;
+	border: 1px solid #0a79bc;
+	padding: 8px 20px 6px;
+	margin-top: 10px;
+	display: inline-block;
+	background: #fff;
+}
+.carousel-caption .expore-link:hover, .carousel-caption .expore-link:focus { color: #fff; background: #0a79bc; }
+
+/* fade on slider */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+#about { padding: 30px 0 0; }
+.welcome-txt { padding: 0 50px; }
+.welcome-txt p { margin-bottom: 0; }
+#about h1 { font-size: 24px; margin-top: 25px; }
+#about p, .mobile-app-right h4 { font-size: 17px; }
+
+.feature-cols { padding: 65px 0 20px; }
+.feature-cols h4 { font-family: 'pluto_sansmedium'; font-size: 16px; }
+.feature-cols .col-md-3 { margin-bottom: 25px; }
+.feature-cols p, .media-body p { font-size: 12px; }
+.media-body h4 { font-size: 16px; margin: 0 0 8px; }
+.dashboard { padding: 65px 0; background: #f0f0f0; }
+.dashboard-dtls { margin-left: 10px; }
+.dashboard-left { margin: 10% 0; }
+
+#mobile-app {
+    background: -webkit-linear-gradient(#85c240, #0676b9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#85c240, #0676b9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#85c240, #0676b9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#85c240, #0676b9); /* Standard syntax (must be last) */
+	color: #fff;
+	padding: 45px 0 0;
+}
+.mobile-app-right { margin-top: 5%; }
+.mobile-app-right h2 { font-size: 28px; margin: 15px 0; }
+.mobile-app-right h4 { font-family: 'pluto_sansmedium'; margin: 0 0 5px; }
+.mobile-app-right p { line-height: 20px; font-size: 13px; }
+.mobile-app-right a { display: inline-block; margin: 15px 0; }
+
+footer { background: #454341; color: #8c8c8c; font-size: 13px; padding: 25px 0 0; }
+footer .contact { padding-bottom: 25px; border-bottom: 1px solid #8c8c8c; }
+footer h2 { font-size: 24px; margin-bottom: 20px; }
+footer address { margin: 0 0 20px; }
+.contact-left a { color: #8c8c8c; }
+.feedback-left { padding: 0 5px 0 0 !important; }
+.feedback-right { padding: 0 0 0 5px !important; }
+.feedback-right textarea.form-control { height: 145px; }
+.feedback-right .feedback-btn { color: #fff !important; background: #87c33f; font-size: 18px; margin: 10px 0; border: 1px solid #87c33f !important; border-radius: 20px; padding: 6px 35px 5px; }
+.feedback-right .feedback-btn:hover, .feedback-right .feedback-btn:focus { background: #76b827; }
+.powered-copyright { padding: 20px 0; }
+.powered span { display: inline-block; margin-right: 5px; }
+.powered-copyright .powered, .powered-copyright .copyright { width: 50%; float: left; }
+.powered-copyright .copyright { margin-top: 13px; }
+
+.login-wrapper h5 { margin: 0 0 15px; }
+.login-wrapper .green:hover { color: #0a79bc; }
+.login-wrapper .btn { width: 100%; }
+#patient, #provider { color: #666; }
+.login-wrapper #loginTabs { margin-bottom: 20px; }
+.new-account { padding-top: 10px; margin-top: 15px; border-top: 1px solid #eee; }
+.font12 { font-size: 12px !important; }
+.fa { font-size: 19px !important; }
+.input-icon > input {
+    padding-left: 30px !important;
+    padding-right: 6px;
+}
+span.input-icon, span.input-help {
+    display: block;
+    position: relative;
+}
+.input-icon > [class*="fa-"], .input-icon > [class*="ti-"] {
+    bottom: 0;
+    color: #89c148;
+    display: inline-block;
+    left: 5px;
+    line-height: 35px;
+    padding: 0 3px;
+    position: absolute;
+    top: -1px;
+    z-index: 2;
+}

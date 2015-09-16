@@ -104,8 +104,8 @@ def create_profile(first_name,middle_name,last_name,email_id,contact,created_via
 						"msg_display":"Provider is Already Registered"
 					}
 			except Exception, e:
-				# import traceback
-				# print "login.py",e, "\n",traceback.format_exc()
+				import traceback
+				print "login.py",e, "\n",traceback.format_exc()
 				return {
 					"returncode" : 101,
 					"message_summary" : "Can not register at this moment, Please try after some time",

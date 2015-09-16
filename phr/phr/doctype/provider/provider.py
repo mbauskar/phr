@@ -69,6 +69,7 @@ class Provider(Document):
 
 		from phr.phr.phr_api import get_response
 		response=get_response(url, json.dumps(data),request_type)
+		print "response",response
 		res=json.loads(response.text)
 
 		if res['returncode']==129:

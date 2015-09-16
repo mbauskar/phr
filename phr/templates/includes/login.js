@@ -96,12 +96,19 @@ login.bind_events = function() {
 	}
 }
 
+clear_credentials=function(){
+	$("#patient_login_email").val("");
+	$("#patient_login_password").val("");
+	$("#provider_login_email").val("");
+	$("#provider_login_password").val("");
+}
 
 login.route = function() {
 	var route = window.location.hash.slice(1);
 	if(!route) route = "login";
 	else if(route == "patient-signup") route = "signup";
 	else if(route == "provider-signup") route = "provider_signup";
+	clear_credentials();
 	login[route]();
 }
 
